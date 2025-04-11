@@ -20,8 +20,7 @@ const cardRoutes = require("./routes/card");
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true,
+    origin: "*",
   })
 );
 
