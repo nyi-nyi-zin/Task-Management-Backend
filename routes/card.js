@@ -35,11 +35,4 @@ router.delete(
   cardController.deleteCard
 );
 
-//add card desc
-// router.post(
-//   "/board/list/create-card-desc",
-//   authMiddleware,
-//   cardController.createDesc
-// );
-
 module.exports = router;
